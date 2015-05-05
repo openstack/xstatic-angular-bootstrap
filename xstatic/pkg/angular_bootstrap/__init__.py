@@ -31,7 +31,7 @@ MAINTAINER_EMAIL = 'maxime.vidori@enovance.com'
 HOMEPAGE = 'http://angular-ui.github.io/bootstrap/'
 
 # this refers to all files:
-LICENSE = '(same as %s)' % DISPLAY_NAME
+LICENSE = 'MIT'
 
 from os.path import join, dirname
 BASE_DIR = join(dirname(__file__), 'data')

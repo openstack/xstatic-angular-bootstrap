@@ -11,3 +11,8 @@ the XStatic base package, if you like.
 
 You can find more info about the xstatic packaging way in the package `XStatic`.
 
+
+Maintenance
+-----------
+
+To release this package you must use the xstatic-release tool.

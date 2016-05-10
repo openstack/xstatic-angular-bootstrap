@@ -11,9 +11,9 @@ NAME = __name__.split('.')[-1] # package name (e.g. 'foo' or 'foo_bar')
                                # please use a all-lowercase valid python
                                # package name
 
-VERSION = '0.11.0' # version of the packaged files, please use the upstream
+VERSION = '1.3.3' # version of the packaged files, please use the upstream
                   # version number
-BUILD = '8' # our package build number, so we can release new builds
+BUILD = '0' # our package build number, so we can release new builds
              # with fixes for xstatic stuff.
 PACKAGE_VERSION = VERSION + '.' + BUILD # version used for PyPi
 
@@ -24,14 +24,14 @@ CLASSIFIERS = []
 KEYWORDS = '%s xstatic' % NAME
 
 # XStatic-* package maintainer:
-MAINTAINER = 'Maxime Vidori'
-MAINTAINER_EMAIL = 'maxime.vidori@enovance.com'
+MAINTAINER = 'Rob Cresswell'
+MAINTAINER_EMAIL = 'robert.cresswell@outlook.com'
 
 # this refers to the project homepage of the stuff we packaged:
 HOMEPAGE = 'http://angular-ui.github.io/bootstrap/'
 
 # this refers to all files:
-LICENSE = '(same as Angular-Bootstrap)'
+LICENSE = 'MIT'
 
 from os.path import join, dirname
 BASE_DIR = join(dirname(__file__), 'data')

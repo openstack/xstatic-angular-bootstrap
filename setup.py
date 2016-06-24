@@ -12,5 +12,6 @@ setup(
     maintainer_email='maxime.vidori@enovance.com',
     use_scm_version=True,
     setup_requires=['setuptools_scm', 'wheel'],
-    packages=find_packages()
+    packages=find_packages(),
+    include_package_data=True
 )

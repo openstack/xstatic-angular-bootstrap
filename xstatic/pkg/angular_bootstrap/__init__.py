@@ -13,7 +13,7 @@ NAME = __name__.split('.')[-1] # package name (e.g. 'foo' or 'foo_bar')
 
 VERSION = '0.11.0' # version of the packaged files, please use the upstream
                   # version number
-BUILD = '6' # our package build number, so we can release new builds
+BUILD = '8' # our package build number, so we can release new builds
              # with fixes for xstatic stuff.
 PACKAGE_VERSION = VERSION + '.' + BUILD # version used for PyPi
 
@@ -31,7 +31,7 @@ MAINTAINER_EMAIL = 'maxime.vidori@enovance.com'
 HOMEPAGE = 'http://angular-ui.github.io/bootstrap/'
 
 # this refers to all files:
-LICENSE = 'MIT'
+LICENSE = '(same as Angular-Bootstrap)'
 
 from os.path import join, dirname
 BASE_DIR = join(dirname(__file__), 'data')

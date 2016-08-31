@@ -6,8 +6,8 @@ long_description = open('README.txt').read()
 
 setup(
     name='XStatic-Angular-Bootstrap',
-    summary="""Angular-Bootstrap 0.11.0 (XStatic packaging standard)""",
-    description=long_description,
+    description="""Angular-Bootstrap 0.11.0 (XStatic packaging standard)""",
+    long_description=long_description,
     maintainer="Maxime Vidori",
     maintainer_email='maxime.vidori@enovance.com',
     use_scm_version=True,

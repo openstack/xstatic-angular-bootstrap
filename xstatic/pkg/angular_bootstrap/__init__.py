@@ -11,7 +11,7 @@ NAME = __name__.split('.')[-1] # package name (e.g. 'foo' or 'foo_bar')
                                # please use a all-lowercase valid python
                                # package name
 
-VERSION = '1.3.3' # version of the packaged files, please use the upstream
+VERSION = '2.2.0' # version of the packaged files, please use the upstream
                   # version number
 BUILD = '0' # our package build number, so we can release new builds
              # with fixes for xstatic stuff.
@@ -37,6 +37,8 @@ from os.path import join, dirname
 BASE_DIR = join(dirname(__file__), 'data')
 # linux package maintainers just can point to their file locations like this:
 #BASE_DIR = '/usr/share/javascript/angular_cookies'
+
+MAIN='angular-bootstrap.js'
 
 LOCATIONS = {
     # CDN locations (if no public CDN exists, use an empty dict)

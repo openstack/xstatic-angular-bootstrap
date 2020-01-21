@@ -11,7 +11,7 @@ NAME = __name__.split('.')[-1] # package name (e.g. 'foo' or 'foo_bar')
                                # please use a all-lowercase valid python
                                # package name
 
-VERSION = '2.2.0' # version of the packaged files, please use the upstream
+VERSION = '2.5.0' # version of the packaged files, please use the upstream
                   # version number
 BUILD = '0' # our package build number, so we can release new builds
              # with fixes for xstatic stuff.
@@ -24,8 +24,8 @@ CLASSIFIERS = []
 KEYWORDS = '%s xstatic' % NAME
 
 # XStatic-* package maintainer:
-MAINTAINER = 'Rob Cresswell'
-MAINTAINER_EMAIL = 'robert.cresswell@outlook.com'
+MAINTAINER = 'Radomir Dopieralski'
+MAINTAINER_EMAIL = 'openstack@sheep.art.pl'
 
 # this refers to the project homepage of the stuff we packaged:
 HOMEPAGE = 'http://angular-ui.github.io/bootstrap/'
